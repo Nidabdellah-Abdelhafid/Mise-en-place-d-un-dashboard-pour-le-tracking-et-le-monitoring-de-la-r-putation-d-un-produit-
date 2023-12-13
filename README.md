@@ -19,7 +19,7 @@ To deploy the necessary services, use the provided `docker-compose.yml` file. Fo
 ```bash
 docker-compose up airflow-init
 ```
-##### This command initializes the Airflow environment.
+#### This command initializes the Airflow environment.
 
 #### Step 2: Run Docker Compose
 
@@ -28,7 +28,7 @@ docker-compose up
 ```
 #### Step 3: Run DAG in Airflow
 
-##### Airflow uses Directed Acyclic Graphs (DAGs) to define and execute workflows. To run the DAG for product reputation tracking, follow these steps:
+#### Airflow uses Directed Acyclic Graphs (DAGs) to define and execute workflows. To run the DAG for product reputation tracking, follow these steps:
   1. Access the Airflow web interface at http://localhost:8080 (default credentials: username - airflow, password - airflow).
   2. Navigate to the "DAGs" section in the Airflow UI.
   3. Find the DAG related to product reputation tracking.

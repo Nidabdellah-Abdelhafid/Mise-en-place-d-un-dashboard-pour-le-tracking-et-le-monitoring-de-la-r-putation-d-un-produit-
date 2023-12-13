@@ -6,13 +6,10 @@ This repository contains the necessary components to set up a dashboard for trac
 
 ## Workflow
 
-### 1. Add Source Image
-
-Before setting up the dashboard, ensure that you have the necessary source images related to the product's reputation. Place these images in the designated folder.
 ![Alt text](workflow.jpeg)
 
 
-### 2. Execution of Docker Compose
+### Execution of Docker Compose
 
 To deploy the necessary services, use the provided `docker-compose.yml` file. Follow the steps below:
 
